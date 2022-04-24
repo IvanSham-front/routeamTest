@@ -1,0 +1,29 @@
+.search-form__input {
+    border-color: #A2A3A4;
+    border-radius: 0;
+    width: 91%;
+    font-size: 14px;
+    &::placeholder {
+        color: #000000 ;
+    }
+    @media (max-width:1000px) {
+        width: 80%;
+    }
+    @media (max-width: 550px) {
+        font-size: 10px;
+    }
+}
+
+.search-form__btn {
+    width: 74px;
+    height: 68px;
+    background-image: url('../../img/search-icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #00A3FF;
+    @media (max-width: 1000px) {
+        width: 38px;
+        height: 35px;
+        background-size: 25px;
+    }
+}

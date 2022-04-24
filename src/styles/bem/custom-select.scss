@@ -1,0 +1,28 @@
+.custom-select {
+    width: 47px;
+    overflow: hidden;
+    background: url('../../img/select-arrow.png') no-repeat right #ffffff;
+    border: 1px solid #A2A3A4;
+    background-position-x: 20px;
+    background-size: 16px;
+
+}
+
+.custom-select__inner {
+    position: absolute;
+    left: 36px;
+    bottom: 20px;
+    @media (max-width: 768px) {
+        left: 21px;
+        bottom: 55px;
+    }
+}
+
+.custom-select__inner select{
+    background: transparent;
+    width: 61px;
+    padding: 2px;
+    font-size: 16px;
+    height: 34px;
+    
+}

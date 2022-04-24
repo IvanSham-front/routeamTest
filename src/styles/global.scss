@@ -1,0 +1,60 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+h1,h2,h3,h4,h5 {
+    margin: 0;
+    padding: 0;
+}
+
+ul,li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', 'Arial', serif;
+    min-width: 320px;
+}
+
+.hidden {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:0 ;
+    border:0 ;
+    height: 1px; 
+    width: 1px; 
+    overflow: hidden;
+}
+
+.background {
+    background-color: #DDDDDD;
+}
+
+.header {
+    padding: 32px 0;
+}
+
+main {
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.row {
+    margin: 0;
+}
+
+.main-project {
+    position: relative;
+}
+
+.pagination__position{
+    padding-bottom: 15px;
+}

@@ -1,0 +1,10 @@
+.comment-value {
+    @include flex-box(row nowrap, space-between);
+}
+
+.comment-value__text {
+    padding-top: 15px;
+    @media (max-width: 1200px) {
+        padding-top: 2px;
+    }
+}

@@ -1,0 +1,15 @@
+.author {
+    @include flex-box(row, flex-start);
+    align-items: center;
+}
+
+.author__photo {
+    width: 50px;
+    height: 50px;
+    @include circle;
+    margin-right: 27px;
+    @media (max-width:1000px) {
+        width: 40px;
+        height: 40px;
+    }
+}
